@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Project Importer Application
-Bundle-SymbolicName: test.myapp;singleton:=true
+Bundle-SymbolicName: com.eclipse.project.tools;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: org.eclipse.equinox.app,

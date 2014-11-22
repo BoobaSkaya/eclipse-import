@@ -9,7 +9,7 @@
             thread="main"
             visible="true">
          <run
-               class="test.myapp.Application">
+               class="com.eclipse.project.tools.ProjectImportApplication_old">
          </run>
       </application>
    </extension>

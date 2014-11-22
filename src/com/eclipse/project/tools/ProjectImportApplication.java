@@ -1,4 +1,4 @@
-package test.myapp;
+package com.eclipse.project.tools;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -12,8 +12,13 @@ import org.eclipse.core.runtime.Path;
 import org.eclipse.equinox.app.IApplication;
 import org.eclipse.equinox.app.IApplicationContext;
 
-public class Application implements IApplication {
+public class ProjectImportApplication implements IApplication {
 
+
+    /**
+     * Begin the project importation
+     * 
+     */
 	public Object start(IApplicationContext context) throws Exception {
 
 		String[] args = (String[]) context.getArguments().get(IApplicationContext.APPLICATION_ARGS);
