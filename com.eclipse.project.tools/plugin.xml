@@ -13,4 +13,12 @@
          </run>
       </application>
    </extension>
+   <extension
+         id="project_tools"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="Project Tools">
+      </product>
+   </extension>
 </plugin>
