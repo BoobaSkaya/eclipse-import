@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_DkvlwHMVEeS9Ga9p67nkYw" elementId="com.eclipse.project.tools.product.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_k5k2gHOkEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.trimmedwindow.0">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_mjQKEHOkEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_nQit4HOkEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_oNmzEHOkEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.partsashcontainer.0">
+          <children xsi:type="basic:PartStack" xmi:id="_pnaeoHOkEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="_p9MhYHOkEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.part.coucou" label="Coucou"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <trimBars xmi:id="_X_48YHOmEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.ui.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_YqgmsHOmEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.ui.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dQnPIHOmEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.ui.handledtoolitem.import" accessibilityPhrase="coucou" label="Import" tooltip="c'est moi" command="_xYNsAHOlEeSG-cqbhKGp1Q"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_GduGIHOmEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.handler.ImportProjectHandler" contributionURI="bundleclass://com.eclipse.project.tools.ui/handler.ImportProjectHandler" command="_xYNsAHOlEeSG-cqbhKGp1Q"/>
+  <commands xmi:id="_xYNsAHOlEeSG-cqbhKGp1Q" elementId="com.eclipse.project.tools.command.ImportProject" commandName="Import Project" description="Import a project"/>
+  <addons xmi:id="_DkvlwXMVEeS9Ga9p67nkYw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_DkvlwnMVEeS9Ga9p67nkYw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_Dkvlw3MVEeS9Ga9p67nkYw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_DkvlxHMVEeS9Ga9p67nkYw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_DkvlxXMVEeS9Ga9p67nkYw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_DkvlxnMVEeS9Ga9p67nkYw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_Dkvlx3MVEeS9Ga9p67nkYw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

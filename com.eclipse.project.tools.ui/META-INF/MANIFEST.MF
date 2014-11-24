@@ -1,7 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ProjectToolsUI
-Bundle-SymbolicName: com.eclipse.project.tools.ui
+Bundle-SymbolicName: com.eclipse.project.tools.ui;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: BoobaSkaya
+Require-Bundle: com.eclipse.project.tools;bundle-version="1.0.0",
+ org.eclipse.e4.core.di,
+ javax.inject
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
